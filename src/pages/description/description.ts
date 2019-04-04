@@ -1,8 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { HeroService } from '../../providers/hero-service/hero-service';
-import { Hero } from '../../models/hero';
-
+import { Hero } from '../../app/hero';
 
 @IonicPage()
 @Component({
